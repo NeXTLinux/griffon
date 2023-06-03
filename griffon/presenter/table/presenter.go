@@ -6,13 +6,12 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/olekukonko/tablewriter"
-
 	griffonDb "github.com/nextlinux/griffon/griffon/db/v5"
 	"github.com/nextlinux/griffon/griffon/match"
 	"github.com/nextlinux/griffon/griffon/pkg"
 	"github.com/nextlinux/griffon/griffon/presenter/models"
 	"github.com/nextlinux/griffon/griffon/vulnerability"
+	"github.com/olekukonko/tablewriter"
 )
 
 const (

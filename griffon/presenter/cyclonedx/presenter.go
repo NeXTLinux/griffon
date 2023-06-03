@@ -4,16 +4,16 @@ import (
 	"io"
 
 	"github.com/CycloneDX/cyclonedx-go"
-
-	"github.com/anchore/syft/syft/formats/common/cyclonedxhelpers"
-	"github.com/anchore/syft/syft/sbom"
-	"github.com/anchore/syft/syft/source"
 	"github.com/nextlinux/griffon/griffon/match"
 	"github.com/nextlinux/griffon/griffon/pkg"
 	"github.com/nextlinux/griffon/griffon/presenter/models"
 	"github.com/nextlinux/griffon/griffon/vulnerability"
 	"github.com/nextlinux/griffon/internal"
 	"github.com/nextlinux/griffon/internal/version"
+
+	"github.com/anchore/syft/syft/formats/common/cyclonedxhelpers"
+	"github.com/anchore/syft/syft/sbom"
+	"github.com/anchore/syft/syft/source"
 )
 
 // Presenter writes a CycloneDX report from the given Matches and Scope contents

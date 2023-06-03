@@ -7,10 +7,9 @@ import (
 	"path"
 	"time"
 
-	"github.com/spf13/afero"
-
 	"github.com/nextlinux/griffon/internal/file"
 	"github.com/nextlinux/griffon/internal/log"
+	"github.com/spf13/afero"
 )
 
 const MetadataFileName = "metadata.json"

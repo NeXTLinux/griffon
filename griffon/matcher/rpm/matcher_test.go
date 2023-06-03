@@ -4,14 +4,14 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
-
-	syftPkg "github.com/anchore/syft/syft/pkg"
 	"github.com/nextlinux/griffon/griffon/distro"
 	"github.com/nextlinux/griffon/griffon/match"
 	"github.com/nextlinux/griffon/griffon/pkg"
 	"github.com/nextlinux/griffon/griffon/vulnerability"
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
+
+	syftPkg "github.com/anchore/syft/syft/pkg"
 )
 
 func intRef(x int) *int {

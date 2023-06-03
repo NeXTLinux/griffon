@@ -3,11 +3,10 @@ package platformcpe
 import (
 	"testing"
 
-	"github.com/stretchr/testify/assert"
-
 	"github.com/nextlinux/griffon/griffon/distro"
 	"github.com/nextlinux/griffon/griffon/pkg"
 	"github.com/nextlinux/griffon/griffon/pkg/qualifier"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestPlatformCPE_Satisfied(t *testing.T) {

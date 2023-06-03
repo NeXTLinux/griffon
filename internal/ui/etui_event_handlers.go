@@ -10,12 +10,11 @@ import (
 	"sync"
 
 	"github.com/gookit/color"
-	"github.com/wagoodman/go-partybus"
-	"github.com/wagoodman/jotframe/pkg/frame"
-
 	griffonEventParsers "github.com/nextlinux/griffon/griffon/event/parsers"
 	"github.com/nextlinux/griffon/internal"
 	"github.com/nextlinux/griffon/internal/version"
+	"github.com/wagoodman/go-partybus"
+	"github.com/wagoodman/jotframe/pkg/frame"
 )
 
 func handleAppUpdateAvailable(_ context.Context, fr *frame.Frame, event partybus.Event, _ *sync.WaitGroup) error {

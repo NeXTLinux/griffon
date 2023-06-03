@@ -7,14 +7,13 @@ import (
 	"net/url"
 	"path"
 
-	"github.com/olekukonko/tablewriter"
-	"github.com/wagoodman/go-partybus"
-	"github.com/wagoodman/go-progress"
-
 	"github.com/nextlinux/griffon/griffon/db"
 	v5 "github.com/nextlinux/griffon/griffon/db/v5"
 	"github.com/nextlinux/griffon/griffon/event"
 	"github.com/nextlinux/griffon/internal/bus"
+	"github.com/olekukonko/tablewriter"
+	"github.com/wagoodman/go-partybus"
+	"github.com/wagoodman/go-progress"
 )
 
 type Differ struct {

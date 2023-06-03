@@ -5,7 +5,6 @@ import (
 	"time"
 
 	"github.com/go-test/deep"
-
 	v2 "github.com/nextlinux/griffon/griffon/db/v2"
 	"github.com/nextlinux/griffon/griffon/db/v2/store/model"
 )

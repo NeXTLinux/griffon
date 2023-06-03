@@ -4,9 +4,8 @@ import (
 	"context"
 	"time"
 
-	"gorm.io/gorm/logger"
-
 	"github.com/nextlinux/griffon/internal/log"
+	"gorm.io/gorm/logger"
 )
 
 type logAdapter struct {

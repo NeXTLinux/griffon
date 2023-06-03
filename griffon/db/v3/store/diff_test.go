@@ -5,9 +5,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/stretchr/testify/assert"
-
 	v3 "github.com/nextlinux/griffon/griffon/db/v3"
+	"github.com/stretchr/testify/assert"
 )
 
 func Test_GetAllVulnerabilities(t *testing.T) {

@@ -4,14 +4,14 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
-	"github.com/stretchr/testify/assert"
-
-	"github.com/anchore/syft/syft/cpe"
-	syftPkg "github.com/anchore/syft/syft/pkg"
 	"github.com/nextlinux/griffon/griffon/distro"
 	"github.com/nextlinux/griffon/griffon/pkg"
 	"github.com/nextlinux/griffon/griffon/version"
 	"github.com/nextlinux/griffon/griffon/vulnerability"
+	"github.com/stretchr/testify/assert"
+
+	"github.com/anchore/syft/syft/cpe"
+	syftPkg "github.com/anchore/syft/syft/pkg"
 )
 
 func TestMatcherGolang_DropMainPackage(t *testing.T) {

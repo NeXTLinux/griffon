@@ -4,13 +4,14 @@ import (
 	"fmt"
 	"net/http"
 
-	syftPkg "github.com/anchore/syft/syft/pkg"
 	"github.com/nextlinux/griffon/griffon/distro"
 	"github.com/nextlinux/griffon/griffon/match"
 	"github.com/nextlinux/griffon/griffon/pkg"
 	"github.com/nextlinux/griffon/griffon/search"
 	"github.com/nextlinux/griffon/griffon/vulnerability"
 	"github.com/nextlinux/griffon/internal/log"
+
+	syftPkg "github.com/anchore/syft/syft/pkg"
 )
 
 const (

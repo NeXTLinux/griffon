@@ -5,10 +5,9 @@ import (
 	"time"
 
 	"github.com/adrg/xdg"
-	"github.com/spf13/viper"
-
 	"github.com/nextlinux/griffon/griffon/db"
 	"github.com/nextlinux/griffon/internal"
+	"github.com/spf13/viper"
 )
 
 type database struct {

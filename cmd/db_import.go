@@ -3,10 +3,9 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/spf13/cobra"
-
 	"github.com/nextlinux/griffon/griffon/db"
 	"github.com/nextlinux/griffon/internal"
+	"github.com/spf13/cobra"
 )
 
 var dbImportCmd = &cobra.Command{

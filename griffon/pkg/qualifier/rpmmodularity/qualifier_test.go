@@ -3,10 +3,9 @@ package rpmmodularity
 import (
 	"testing"
 
-	"github.com/stretchr/testify/assert"
-
 	"github.com/nextlinux/griffon/griffon/pkg"
 	"github.com/nextlinux/griffon/griffon/pkg/qualifier"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestRpmModularity_Satisfied(t *testing.T) {

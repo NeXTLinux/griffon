@@ -7,17 +7,6 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/pkg/profile"
-	"github.com/spf13/cobra"
-	"github.com/spf13/pflag"
-	"github.com/spf13/viper"
-	"github.com/wagoodman/go-partybus"
-
-	"github.com/anchore/stereoscope"
-	"github.com/anchore/syft/syft/linux"
-	syftPkg "github.com/anchore/syft/syft/pkg"
-	"github.com/anchore/syft/syft/sbom"
-	"github.com/anchore/syft/syft/source"
 	"github.com/nextlinux/griffon/griffon"
 	"github.com/nextlinux/griffon/griffon/db"
 	griffonDb "github.com/nextlinux/griffon/griffon/db/v5"
@@ -44,6 +33,17 @@ import (
 	"github.com/nextlinux/griffon/internal/log"
 	"github.com/nextlinux/griffon/internal/ui"
 	"github.com/nextlinux/griffon/internal/version"
+	"github.com/pkg/profile"
+	"github.com/spf13/cobra"
+	"github.com/spf13/pflag"
+	"github.com/spf13/viper"
+	"github.com/wagoodman/go-partybus"
+
+	"github.com/anchore/stereoscope"
+	"github.com/anchore/syft/syft/linux"
+	syftPkg "github.com/anchore/syft/syft/pkg"
+	"github.com/anchore/syft/syft/sbom"
+	"github.com/anchore/syft/syft/source"
 )
 
 var persistentOpts = config.CliOnlyOptions{}

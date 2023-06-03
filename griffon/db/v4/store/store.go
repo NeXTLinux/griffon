@@ -5,13 +5,13 @@ import (
 	"sort"
 
 	"github.com/go-test/deep"
-	"gorm.io/gorm"
-
-	_ "github.com/anchore/sqlite" // provide the sqlite dialect to gorm via import
 	"github.com/nextlinux/griffon/griffon/db/internal/gormadapter"
 	v4 "github.com/nextlinux/griffon/griffon/db/v4"
 	"github.com/nextlinux/griffon/griffon/db/v4/store/model"
 	"github.com/nextlinux/griffon/internal"
+	"gorm.io/gorm"
+
+	_ "github.com/anchore/sqlite" // provide the sqlite dialect to gorm via import
 )
 
 // store holds an instance of the database connection

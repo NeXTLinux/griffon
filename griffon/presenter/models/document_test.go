@@ -4,14 +4,14 @@ import (
 	"testing"
 	"time"
 
+	"github.com/nextlinux/griffon/griffon/match"
+	"github.com/nextlinux/griffon/griffon/pkg"
+	"github.com/nextlinux/griffon/griffon/vulnerability"
 	"github.com/stretchr/testify/assert"
 
 	"github.com/anchore/syft/syft/linux"
 	syftPkg "github.com/anchore/syft/syft/pkg"
 	syftSource "github.com/anchore/syft/syft/source"
-	"github.com/nextlinux/griffon/griffon/match"
-	"github.com/nextlinux/griffon/griffon/pkg"
-	"github.com/nextlinux/griffon/griffon/vulnerability"
 )
 
 func TestPackagesAreSorted(t *testing.T) {

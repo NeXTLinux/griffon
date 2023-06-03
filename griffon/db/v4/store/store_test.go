@@ -7,10 +7,9 @@ import (
 	"time"
 
 	"github.com/go-test/deep"
-	"github.com/stretchr/testify/assert"
-
 	v4 "github.com/nextlinux/griffon/griffon/db/v4"
 	"github.com/nextlinux/griffon/griffon/db/v4/store/model"
+	"github.com/stretchr/testify/assert"
 )
 
 func assertIDReader(t *testing.T, reader v4.IDReader, expected v4.ID) {

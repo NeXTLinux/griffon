@@ -1,8 +1,9 @@
 package cpe
 
 import (
-	"github.com/anchore/syft/syft/cpe"
 	"github.com/nextlinux/griffon/internal/log"
+
+	"github.com/anchore/syft/syft/cpe"
 )
 
 func NewSlice(cpeStrs ...string) ([]cpe.CPE, error) {

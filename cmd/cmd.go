@@ -7,6 +7,10 @@ import (
 	"sort"
 
 	"github.com/gookit/color"
+	"github.com/nextlinux/griffon/griffon"
+	"github.com/nextlinux/griffon/internal/config"
+	"github.com/nextlinux/griffon/internal/log"
+	"github.com/nextlinux/griffon/internal/version"
 	logrusUpstream "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
@@ -15,10 +19,6 @@ import (
 	"github.com/anchore/go-logger/adapter/logrus"
 	"github.com/anchore/stereoscope"
 	"github.com/anchore/syft/syft"
-	"github.com/nextlinux/griffon/griffon"
-	"github.com/nextlinux/griffon/internal/config"
-	"github.com/nextlinux/griffon/internal/log"
-	"github.com/nextlinux/griffon/internal/version"
 )
 
 var (

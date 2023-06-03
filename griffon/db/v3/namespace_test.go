@@ -5,12 +5,12 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
+	"github.com/nextlinux/griffon/griffon/distro"
+	"github.com/nextlinux/griffon/griffon/pkg"
 	"github.com/scylladb/go-set/strset"
 	"github.com/stretchr/testify/assert"
 
 	syftPkg "github.com/anchore/syft/syft/pkg"
-	"github.com/nextlinux/griffon/griffon/distro"
-	"github.com/nextlinux/griffon/griffon/pkg"
 )
 
 func Test_NamespaceFromRecordSource(t *testing.T) {

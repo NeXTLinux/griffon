@@ -4,10 +4,9 @@ import (
 	"testing"
 
 	"github.com/go-test/deep"
-	"github.com/stretchr/testify/assert"
-
 	"github.com/nextlinux/griffon/griffon/match"
 	"github.com/nextlinux/griffon/griffon/vulnerability"
+	"github.com/stretchr/testify/assert"
 )
 
 func assertMatchesUsingIDsForVulnerabilities(t testing.TB, expected, actual []match.Match) {

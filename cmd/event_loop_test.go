@@ -7,12 +7,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/nextlinux/griffon/griffon/event"
+	"github.com/nextlinux/griffon/internal/ui"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/wagoodman/go-partybus"
-
-	"github.com/nextlinux/griffon/griffon/event"
-	"github.com/nextlinux/griffon/internal/ui"
 )
 
 var _ ui.UI = (*uiMock)(nil)

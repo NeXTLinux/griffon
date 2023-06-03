@@ -11,13 +11,13 @@ import (
 	"os"
 	"sync"
 
+	griffonEvent "github.com/nextlinux/griffon/griffon/event"
+	"github.com/nextlinux/griffon/internal/log"
+	"github.com/nextlinux/griffon/ui"
 	"github.com/wagoodman/go-partybus"
 	"github.com/wagoodman/jotframe/pkg/frame"
 
 	"github.com/anchore/go-logger"
-	griffonEvent "github.com/nextlinux/griffon/griffon/event"
-	"github.com/nextlinux/griffon/internal/log"
-	"github.com/nextlinux/griffon/ui"
 )
 
 // ephemeralTerminalUI provides an "ephemeral" terminal user interface to display the application state dynamically.

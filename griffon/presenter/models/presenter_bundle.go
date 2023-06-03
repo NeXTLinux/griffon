@@ -1,10 +1,11 @@
 package models
 
 import (
-	"github.com/anchore/syft/syft/sbom"
 	"github.com/nextlinux/griffon/griffon/match"
 	"github.com/nextlinux/griffon/griffon/pkg"
 	"github.com/nextlinux/griffon/griffon/vulnerability"
+
+	"github.com/anchore/syft/syft/sbom"
 )
 
 type PresenterConfig struct {

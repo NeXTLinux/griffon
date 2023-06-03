@@ -11,16 +11,16 @@ import (
 
 	"github.com/dustin/go-humanize"
 	"github.com/gookit/color"
+	griffonEventParsers "github.com/nextlinux/griffon/griffon/event/parsers"
+	"github.com/nextlinux/griffon/griffon/matcher"
+	"github.com/nextlinux/griffon/griffon/vulnerability"
+	"github.com/nextlinux/griffon/internal/ui/components"
 	"github.com/wagoodman/go-partybus"
 	"github.com/wagoodman/go-progress"
 	"github.com/wagoodman/go-progress/format"
 	"github.com/wagoodman/jotframe/pkg/frame"
 
 	syftUI "github.com/anchore/syft/ui"
-	griffonEventParsers "github.com/nextlinux/griffon/griffon/event/parsers"
-	"github.com/nextlinux/griffon/griffon/matcher"
-	"github.com/nextlinux/griffon/griffon/vulnerability"
-	"github.com/nextlinux/griffon/internal/ui/components"
 )
 
 const maxBarWidth = 50

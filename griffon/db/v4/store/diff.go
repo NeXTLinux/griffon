@@ -1,13 +1,12 @@
 package store
 
 import (
-	"github.com/wagoodman/go-partybus"
-	"github.com/wagoodman/go-progress"
-
 	v4 "github.com/nextlinux/griffon/griffon/db/v4"
 	diffEvents "github.com/nextlinux/griffon/griffon/differ/events"
 	"github.com/nextlinux/griffon/griffon/event"
 	"github.com/nextlinux/griffon/internal/bus"
+	"github.com/wagoodman/go-partybus"
+	"github.com/wagoodman/go-progress"
 )
 
 type storeKey struct {

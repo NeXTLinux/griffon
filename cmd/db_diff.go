@@ -4,16 +4,16 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/spf13/cobra"
-	"github.com/wagoodman/go-partybus"
-
-	"github.com/anchore/stereoscope"
 	"github.com/nextlinux/griffon/griffon/db"
 	"github.com/nextlinux/griffon/griffon/differ"
 	"github.com/nextlinux/griffon/griffon/event"
 	"github.com/nextlinux/griffon/internal/bus"
 	"github.com/nextlinux/griffon/internal/log"
 	"github.com/nextlinux/griffon/internal/ui"
+	"github.com/spf13/cobra"
+	"github.com/wagoodman/go-partybus"
+
+	"github.com/anchore/stereoscope"
 )
 
 var dbDiffOutputFormat string

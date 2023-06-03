@@ -3,12 +3,13 @@ package portage
 import (
 	"strings"
 
-	"github.com/anchore/syft/syft/cpe"
-	syftPkg "github.com/anchore/syft/syft/pkg"
 	"github.com/nextlinux/griffon/griffon/distro"
 	"github.com/nextlinux/griffon/griffon/pkg"
 	"github.com/nextlinux/griffon/griffon/version"
 	"github.com/nextlinux/griffon/griffon/vulnerability"
+
+	"github.com/anchore/syft/syft/cpe"
+	syftPkg "github.com/anchore/syft/syft/pkg"
 )
 
 type mockProvider struct {

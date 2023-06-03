@@ -3,10 +3,9 @@ package ui
 import (
 	"io"
 
-	"github.com/wagoodman/go-partybus"
-
 	griffonEvent "github.com/nextlinux/griffon/griffon/event"
 	"github.com/nextlinux/griffon/internal/log"
+	"github.com/wagoodman/go-partybus"
 )
 
 type loggerUI struct {

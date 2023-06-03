@@ -5,12 +5,13 @@ import (
 	"regexp"
 	"strings"
 
-	syftPkg "github.com/anchore/syft/syft/pkg"
 	"github.com/nextlinux/griffon/griffon/db/v5/namespace/cpe"
 	"github.com/nextlinux/griffon/griffon/db/v5/namespace/distro"
 	"github.com/nextlinux/griffon/griffon/db/v5/namespace/language"
 	griffonDistro "github.com/nextlinux/griffon/griffon/distro"
 	"github.com/nextlinux/griffon/internal/log"
+
+	syftPkg "github.com/anchore/syft/syft/pkg"
 )
 
 var alpineVersionRegularExpression = regexp.MustCompile(`^(\d+)\.(\d+)\.(\d+)$`)

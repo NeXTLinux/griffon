@@ -4,9 +4,8 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
-	"github.com/stretchr/testify/assert"
-
 	griffonPkg "github.com/nextlinux/griffon/griffon/pkg"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestResolver_Normalize(t *testing.T) {

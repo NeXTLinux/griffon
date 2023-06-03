@@ -1,9 +1,10 @@
 package models
 
 import (
+	"github.com/nextlinux/griffon/griffon/pkg"
+
 	syftPkg "github.com/anchore/syft/syft/pkg"
 	syftSource "github.com/anchore/syft/syft/source"
-	"github.com/nextlinux/griffon/griffon/pkg"
 )
 
 // Package is meant to be only the fields that are needed when displaying a single pkg.Package object for the JSON presenter.

@@ -9,11 +9,11 @@ import (
 
 	"github.com/gabriel-vasile/mimetype"
 	"github.com/mitchellh/go-homedir"
+	"github.com/nextlinux/griffon/internal"
+	"github.com/nextlinux/griffon/internal/log"
 
 	"github.com/anchore/syft/syft"
 	"github.com/anchore/syft/syft/sbom"
-	"github.com/nextlinux/griffon/internal"
-	"github.com/nextlinux/griffon/internal/log"
 )
 
 type errEmptySBOM struct {

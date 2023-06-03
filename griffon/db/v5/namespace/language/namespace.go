@@ -5,8 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	syftPkg "github.com/anchore/syft/syft/pkg"
 	"github.com/nextlinux/griffon/griffon/db/v5/pkg/resolver"
+
+	syftPkg "github.com/anchore/syft/syft/pkg"
 )
 
 const ID = "language"

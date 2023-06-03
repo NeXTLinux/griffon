@@ -1,11 +1,6 @@
 package matcher
 
 import (
-	"github.com/wagoodman/go-partybus"
-	"github.com/wagoodman/go-progress"
-
-	"github.com/anchore/syft/syft/linux"
-	syftPkg "github.com/anchore/syft/syft/pkg"
 	griffonDb "github.com/nextlinux/griffon/griffon/db/v5"
 	"github.com/nextlinux/griffon/griffon/distro"
 	"github.com/nextlinux/griffon/griffon/event"
@@ -26,6 +21,11 @@ import (
 	"github.com/nextlinux/griffon/griffon/vulnerability"
 	"github.com/nextlinux/griffon/internal/bus"
 	"github.com/nextlinux/griffon/internal/log"
+	"github.com/wagoodman/go-partybus"
+	"github.com/wagoodman/go-progress"
+
+	"github.com/anchore/syft/syft/linux"
+	syftPkg "github.com/anchore/syft/syft/pkg"
 )
 
 type Monitor struct {

@@ -6,15 +6,15 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/owenrumney/go-sarif/sarif"
-
-	"github.com/anchore/syft/syft/source"
 	v5 "github.com/nextlinux/griffon/griffon/db/v5"
 	"github.com/nextlinux/griffon/griffon/match"
 	"github.com/nextlinux/griffon/griffon/pkg"
 	"github.com/nextlinux/griffon/griffon/presenter/models"
 	"github.com/nextlinux/griffon/griffon/vulnerability"
 	"github.com/nextlinux/griffon/internal/version"
+	"github.com/owenrumney/go-sarif/sarif"
+
+	"github.com/anchore/syft/syft/source"
 )
 
 // Presenter holds the data for generating a report and implements the presenter.Presenter interface
