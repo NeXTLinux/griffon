@@ -53,4 +53,3 @@ jobs:
           title: "chore(deps): update Syft to ${{ steps.latest-version.outputs.LATEST_VERSION }}"
           body: |
             Update Syft to ${{ steps.latest-version.outputs.LATEST_VERSION }}
-          token: ${{ steps.generate-token.outputs.token }}
