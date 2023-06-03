@@ -73,4 +73,3 @@ jobs:
             - [gosimports ${{ steps.latest-versions.outputs.GOSIMPORTS }}](https://github.com/rinchsan/gosimports/releases/tag/${{ steps.latest-versions.outputs.GOSIMPORTS }})
             - [yajsv ${{ steps.latest-versions.outputs.YAJSV }}](https://github.com/neilpa/yajsv/releases/tag/${{ steps.latest-versions.outputs.YAJSV }})
             This is an auto-generated pull request to update all of the bootstrap tools to the latest versions.
-          token: ${{ steps.generate-token.outputs.token }}
