@@ -9,12 +9,23 @@ on:
 env:
   GO_VERSION: "1.19.x"
 
+permissions:
+  contents: read
+
 jobs:
   quality-gate:
+    permissions:
+      checks: read  # for fountainhead/action-wait-for-check to wait for another GitHub check to complete
+      contents: read  # for actions/checkout to fetch code
     environment: release
     runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v3
+      - name: Harden Runner
+        uses: step-security/harden-runner@128a63446a954579617e875aaab7d2978154e969 # v2.4.0
+        with:
+          egress-policy: audit
+
+      - uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab # v3.5.2
 
       - name: Check if tag already exists
         # note: this will fail if the tag already exists
@@ -94,6 +105,11 @@ jobs:
       contents: write
       packages: write
     steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@128a63446a954579617e875aaab7d2978154e969 # v2.4.0
+        with:
+          egress-policy: audit
+
       - uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # v2.5.0
         with:
           fetch-depth: 0
@@ -105,13 +121,13 @@ jobs:
           build-cache-key-prefix: "snapshot"
 
       - name: Login to Docker Hub
-        uses: docker/login-action@v2
+        uses: docker/login-action@f4ef78c080cd8ba55a85445d5b36e214a81df20a # v2.1.0
         with:
           username: ${{ secrets.TOOLBOX_DOCKER_USER }}
           password: ${{ secrets.TOOLBOX_DOCKER_PASS }}
 
       - name: Login to GitHub Container Registry
-        uses: docker/login-action@v2
+        uses: docker/login-action@f4ef78c080cd8ba55a85445d5b36e214a81df20a # v2.1.0
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
