@@ -1,4 +1,4 @@
-FROM openjdk:15-slim-buster@sha256:1e069bf1c5c23adde58b29b82281b862e473d698ce7cc4e164194a0a2a1c044a
+FROM openjdk:18-slim-buster@sha256:596bee0e3ed6c537b2c92cc53089772d880fb3f4413e438dcc147d61d52cc960
 COPY app.java /
 ENV PATH="/app/bin:${PATH}"
 WORKDIR /
