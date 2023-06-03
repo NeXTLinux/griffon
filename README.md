@@ -1,6 +1,3 @@
-<p align="center">
-    <img alt="Griffon logo" src="https://user-images.githubusercontent.com/5199289/136855393-d0a9eef9-ccf1-4e2b-9d7c-7aad16a567e5.png" width="234">
-</p>
 
 [![Static Analysis + Unit + Integration](https://github.com/nextlinux/griffon/workflows/Static%20Analysis%20+%20Unit%20+%20Integration/badge.svg)](https://github.com/nextlinux/griffon/actions?query=workflow%3A%22Static+Analysis+%2B+Unit+%2B+Integration%22)
 [![Acceptance](https://github.com/nextlinux/griffon/workflows/Acceptance/badge.svg)](https://github.com/nextlinux/griffon/actions?query=workflow%3AAcceptance)
