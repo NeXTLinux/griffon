@@ -6,16 +6,16 @@ import (
 	"testing"
 
 	"github.com/go-test/deep"
+	"github.com/nextlinux/griffon/griffon/match"
+	"github.com/nextlinux/griffon/griffon/pkg"
+	"github.com/nextlinux/griffon/griffon/presenter/models"
+	"github.com/nextlinux/griffon/griffon/vulnerability"
 	"github.com/sergi/go-diff/diffmatchpatch"
 	"github.com/stretchr/testify/assert"
 
 	"github.com/anchore/go-testutils"
 	syftPkg "github.com/anchore/syft/syft/pkg"
 	"github.com/anchore/syft/syft/source"
-	"github.com/nextlinux/griffon/griffon/match"
-	"github.com/nextlinux/griffon/griffon/pkg"
-	"github.com/nextlinux/griffon/griffon/presenter/models"
-	"github.com/nextlinux/griffon/griffon/vulnerability"
 )
 
 var update = flag.Bool("update", false, "update the *.golden files for table presenters")

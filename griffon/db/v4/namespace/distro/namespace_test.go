@@ -3,9 +3,8 @@ package distro
 import (
 	"testing"
 
-	"github.com/stretchr/testify/assert"
-
 	griffonDistro "github.com/nextlinux/griffon/griffon/distro"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestFromString(t *testing.T) {

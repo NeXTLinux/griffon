@@ -3,13 +3,13 @@ package namespace
 import (
 	"testing"
 
-	"github.com/stretchr/testify/assert"
-
-	syftPkg "github.com/anchore/syft/syft/pkg"
 	"github.com/nextlinux/griffon/griffon/db/v5/namespace/cpe"
 	"github.com/nextlinux/griffon/griffon/db/v5/namespace/distro"
 	"github.com/nextlinux/griffon/griffon/db/v5/namespace/language"
 	griffonDistro "github.com/nextlinux/griffon/griffon/distro"
+	"github.com/stretchr/testify/assert"
+
+	syftPkg "github.com/anchore/syft/syft/pkg"
 )
 
 func TestFromString(t *testing.T) {

@@ -3,11 +3,11 @@ package match
 import (
 	"testing"
 
+	"github.com/nextlinux/griffon/griffon/pkg"
+	"github.com/nextlinux/griffon/griffon/vulnerability"
 	"github.com/stretchr/testify/assert"
 
 	syftPkg "github.com/anchore/syft/syft/pkg"
-	"github.com/nextlinux/griffon/griffon/pkg"
-	"github.com/nextlinux/griffon/griffon/vulnerability"
 )
 
 type mockExclusionProvider struct {

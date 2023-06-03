@@ -5,11 +5,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/spf13/cobra"
-
 	"github.com/nextlinux/griffon/griffon/vulnerability"
 	"github.com/nextlinux/griffon/internal"
 	"github.com/nextlinux/griffon/internal/version"
+	"github.com/spf13/cobra"
 )
 
 var versionOutputFormat string

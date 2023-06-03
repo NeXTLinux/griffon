@@ -3,13 +3,12 @@ package parsers
 import (
 	"fmt"
 
-	"github.com/wagoodman/go-partybus"
-	"github.com/wagoodman/go-progress"
-
 	diffEvents "github.com/nextlinux/griffon/griffon/differ/events"
 	"github.com/nextlinux/griffon/griffon/event"
 	"github.com/nextlinux/griffon/griffon/matcher"
 	"github.com/nextlinux/griffon/griffon/presenter"
+	"github.com/wagoodman/go-partybus"
+	"github.com/wagoodman/go-progress"
 )
 
 type ErrBadPayload struct {

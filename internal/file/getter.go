@@ -7,9 +7,8 @@ import (
 
 	"github.com/hashicorp/go-getter"
 	"github.com/hashicorp/go-getter/helper/url"
-	"github.com/wagoodman/go-progress"
-
 	"github.com/nextlinux/griffon/internal"
+	"github.com/wagoodman/go-progress"
 )
 
 var (

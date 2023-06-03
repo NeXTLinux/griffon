@@ -7,13 +7,6 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/stretchr/testify/require"
-
-	"github.com/anchore/stereoscope/pkg/imagetest"
-	"github.com/anchore/syft/syft"
-	syftPkg "github.com/anchore/syft/syft/pkg"
-	"github.com/anchore/syft/syft/pkg/cataloger"
-	"github.com/anchore/syft/syft/source"
 	"github.com/nextlinux/griffon/griffon"
 	"github.com/nextlinux/griffon/griffon/db"
 	"github.com/nextlinux/griffon/griffon/match"
@@ -22,6 +15,13 @@ import (
 	"github.com/nextlinux/griffon/griffon/store"
 	"github.com/nextlinux/griffon/griffon/vulnerability"
 	"github.com/nextlinux/griffon/internal"
+	"github.com/stretchr/testify/require"
+
+	"github.com/anchore/stereoscope/pkg/imagetest"
+	"github.com/anchore/syft/syft"
+	syftPkg "github.com/anchore/syft/syft/pkg"
+	"github.com/anchore/syft/syft/pkg/cataloger"
+	"github.com/anchore/syft/syft/source"
 )
 
 func addAlpineMatches(t *testing.T, theSource source.Source, catalog *syftPkg.Collection, theStore *mockStore, theResult *match.Matches) {

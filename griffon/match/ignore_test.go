@@ -4,13 +4,13 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
+	griffonDb "github.com/nextlinux/griffon/griffon/db/v5"
+	"github.com/nextlinux/griffon/griffon/pkg"
+	"github.com/nextlinux/griffon/griffon/vulnerability"
 	"github.com/stretchr/testify/assert"
 
 	syftPkg "github.com/anchore/syft/syft/pkg"
 	"github.com/anchore/syft/syft/source"
-	griffonDb "github.com/nextlinux/griffon/griffon/db/v5"
-	"github.com/nextlinux/griffon/griffon/pkg"
-	"github.com/nextlinux/griffon/griffon/vulnerability"
 )
 
 var (

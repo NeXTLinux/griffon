@@ -4,7 +4,6 @@ import (
 	"fmt"
 
 	"github.com/mitchellh/hashstructure/v2"
-
 	"github.com/nextlinux/griffon/griffon/pkg"
 )
 

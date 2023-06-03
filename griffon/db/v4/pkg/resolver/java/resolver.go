@@ -4,10 +4,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/anchore/packageurl-go"
 	griffonPkg "github.com/nextlinux/griffon/griffon/pkg"
 	"github.com/nextlinux/griffon/internal"
 	"github.com/nextlinux/griffon/internal/log"
+
+	"github.com/anchore/packageurl-go"
 )
 
 type Resolver struct {

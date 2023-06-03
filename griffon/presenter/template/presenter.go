@@ -10,7 +10,6 @@ import (
 
 	"github.com/Masterminds/sprig/v3"
 	"github.com/mitchellh/go-homedir"
-
 	"github.com/nextlinux/griffon/griffon/match"
 	"github.com/nextlinux/griffon/griffon/pkg"
 	"github.com/nextlinux/griffon/griffon/presenter/models"

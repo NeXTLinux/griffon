@@ -3,13 +3,14 @@ package apk
 import (
 	"fmt"
 
-	syftPkg "github.com/anchore/syft/syft/pkg"
 	"github.com/nextlinux/griffon/griffon/distro"
 	"github.com/nextlinux/griffon/griffon/match"
 	"github.com/nextlinux/griffon/griffon/pkg"
 	"github.com/nextlinux/griffon/griffon/search"
 	"github.com/nextlinux/griffon/griffon/version"
 	"github.com/nextlinux/griffon/griffon/vulnerability"
+
+	syftPkg "github.com/anchore/syft/syft/pkg"
 )
 
 type Matcher struct {

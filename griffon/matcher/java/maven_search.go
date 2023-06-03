@@ -7,8 +7,9 @@ import (
 	"net/http"
 	"sort"
 
-	syftPkg "github.com/anchore/syft/syft/pkg"
 	"github.com/nextlinux/griffon/griffon/pkg"
+
+	syftPkg "github.com/anchore/syft/syft/pkg"
 )
 
 // MavenSearcher is the interface that wraps the GetMavenPackageBySha method.

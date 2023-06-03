@@ -6,11 +6,6 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/google/uuid"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
-
-	"github.com/anchore/syft/syft/cpe"
-	syftPkg "github.com/anchore/syft/syft/pkg"
 	"github.com/nextlinux/griffon/griffon/db"
 	griffonDB "github.com/nextlinux/griffon/griffon/db/v5"
 	"github.com/nextlinux/griffon/griffon/distro"
@@ -18,6 +13,11 @@ import (
 	"github.com/nextlinux/griffon/griffon/pkg"
 	"github.com/nextlinux/griffon/griffon/search"
 	"github.com/nextlinux/griffon/griffon/vulnerability"
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
+
+	"github.com/anchore/syft/syft/cpe"
+	syftPkg "github.com/anchore/syft/syft/pkg"
 )
 
 type mockStore struct {

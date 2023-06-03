@@ -3,10 +3,9 @@ package cmd
 import (
 	"testing"
 
-	"github.com/stretchr/testify/assert"
-
 	"github.com/nextlinux/griffon/griffon/pkg"
 	"github.com/nextlinux/griffon/internal/config"
+	"github.com/stretchr/testify/assert"
 )
 
 func Test_applyDistroHint(t *testing.T) {

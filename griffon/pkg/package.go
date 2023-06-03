@@ -5,13 +5,14 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/nextlinux/griffon/internal"
+	"github.com/nextlinux/griffon/internal/log"
+
 	"github.com/anchore/syft/syft/artifact"
 	"github.com/anchore/syft/syft/cpe"
 	"github.com/anchore/syft/syft/pkg"
 	cpes "github.com/anchore/syft/syft/pkg/cataloger/common/cpe"
 	"github.com/anchore/syft/syft/source"
-	"github.com/nextlinux/griffon/internal"
-	"github.com/nextlinux/griffon/internal/log"
 )
 
 // the source-rpm field has something akin to "util-linux-ng-2.17.2-12.28.el6_9.2.src.rpm"

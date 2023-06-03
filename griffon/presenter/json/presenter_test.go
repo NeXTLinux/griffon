@@ -6,14 +6,14 @@ import (
 	"regexp"
 	"testing"
 
+	"github.com/nextlinux/griffon/griffon/match"
+	"github.com/nextlinux/griffon/griffon/pkg"
+	"github.com/nextlinux/griffon/griffon/presenter/models"
 	"github.com/stretchr/testify/assert"
 
 	"github.com/anchore/go-testutils"
 	"github.com/anchore/syft/syft/linux"
 	"github.com/anchore/syft/syft/source"
-	"github.com/nextlinux/griffon/griffon/match"
-	"github.com/nextlinux/griffon/griffon/pkg"
-	"github.com/nextlinux/griffon/griffon/presenter/models"
 )
 
 var update = flag.Bool("update", false, "update the *.golden files for json presenters")

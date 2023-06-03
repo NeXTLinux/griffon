@@ -3,8 +3,9 @@ package version
 import (
 	"fmt"
 
-	"github.com/anchore/syft/syft/cpe"
 	"github.com/nextlinux/griffon/griffon/pkg"
+
+	"github.com/anchore/syft/syft/cpe"
 )
 
 type Version struct {

@@ -5,11 +5,11 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/nextlinux/griffon/griffon/pkg"
+	"github.com/nextlinux/griffon/griffon/vulnerability"
 	"github.com/scylladb/go-set/strset"
 
 	"github.com/anchore/syft/syft/cpe"
-	"github.com/nextlinux/griffon/griffon/pkg"
-	"github.com/nextlinux/griffon/griffon/vulnerability"
 )
 
 var ErrCannotMerge = fmt.Errorf("unable to merge vulnerability matches")

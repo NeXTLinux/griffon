@@ -9,13 +9,13 @@ import (
 
 	"github.com/adrg/xdg"
 	"github.com/mitchellh/go-homedir"
+	"github.com/nextlinux/griffon/griffon/match"
+	"github.com/nextlinux/griffon/griffon/vulnerability"
+	"github.com/nextlinux/griffon/internal"
 	"github.com/spf13/viper"
 	"gopkg.in/yaml.v2"
 
 	"github.com/anchore/go-logger"
-	"github.com/nextlinux/griffon/griffon/match"
-	"github.com/nextlinux/griffon/griffon/vulnerability"
-	"github.com/nextlinux/griffon/internal"
 )
 
 var ErrApplicationConfigNotFound = fmt.Errorf("application config not found")

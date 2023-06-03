@@ -4,6 +4,10 @@ import (
 	"regexp"
 	"testing"
 
+	griffonDb "github.com/nextlinux/griffon/griffon/db/v5"
+	"github.com/nextlinux/griffon/griffon/match"
+	"github.com/nextlinux/griffon/griffon/pkg"
+	"github.com/nextlinux/griffon/griffon/vulnerability"
 	"github.com/stretchr/testify/require"
 
 	"github.com/anchore/stereoscope/pkg/image"
@@ -13,10 +17,6 @@ import (
 	syftPkg "github.com/anchore/syft/syft/pkg"
 	"github.com/anchore/syft/syft/sbom"
 	syftSource "github.com/anchore/syft/syft/source"
-	griffonDb "github.com/nextlinux/griffon/griffon/db/v5"
-	"github.com/nextlinux/griffon/griffon/match"
-	"github.com/nextlinux/griffon/griffon/pkg"
-	"github.com/nextlinux/griffon/griffon/vulnerability"
 )
 
 func GenerateAnalysis(t *testing.T, scheme syftSource.Scheme) (match.Matches, []pkg.Package, pkg.Context, vulnerability.MetadataProvider, interface{}, interface{}) {

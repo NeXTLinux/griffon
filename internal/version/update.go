@@ -6,8 +6,9 @@ import (
 	"net/http"
 	"strings"
 
-	hashiVersion "github.com/anchore/go-version"
 	"github.com/nextlinux/griffon/internal"
+
+	hashiVersion "github.com/anchore/go-version"
 )
 
 var latestAppVersionURL = struct {

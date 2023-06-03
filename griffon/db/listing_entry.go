@@ -9,9 +9,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/spf13/afero"
-
 	"github.com/nextlinux/griffon/internal/file"
+	"github.com/spf13/afero"
 )
 
 // ListingEntry represents basic metadata about a database archive such as what is in the archive (built/version)

@@ -4,11 +4,11 @@ import (
 	"context"
 	"sync"
 
+	griffonEvent "github.com/nextlinux/griffon/griffon/event"
 	"github.com/wagoodman/go-partybus"
 	"github.com/wagoodman/jotframe/pkg/frame"
 
 	syftUI "github.com/anchore/syft/ui"
-	griffonEvent "github.com/nextlinux/griffon/griffon/event"
 )
 
 type Handler struct {

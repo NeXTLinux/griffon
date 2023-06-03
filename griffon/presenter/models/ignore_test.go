@@ -4,7 +4,6 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-
 	griffonDb "github.com/nextlinux/griffon/griffon/db/v5"
 	"github.com/nextlinux/griffon/griffon/match"
 )

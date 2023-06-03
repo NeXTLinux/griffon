@@ -3,12 +3,12 @@ package distro
 import (
 	"testing"
 
+	"github.com/nextlinux/griffon/internal"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
 	"github.com/anchore/syft/syft/linux"
 	"github.com/anchore/syft/syft/source"
-	"github.com/nextlinux/griffon/internal"
 )
 
 func Test_NewDistroFromRelease(t *testing.T) {

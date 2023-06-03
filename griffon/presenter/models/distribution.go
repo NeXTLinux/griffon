@@ -1,9 +1,10 @@
 package models
 
 import (
-	"github.com/anchore/syft/syft/linux"
 	"github.com/nextlinux/griffon/griffon/distro"
 	"github.com/nextlinux/griffon/internal/log"
+
+	"github.com/anchore/syft/syft/linux"
 )
 
 // distribution provides information about a detected Linux distribution.

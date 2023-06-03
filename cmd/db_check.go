@@ -3,9 +3,8 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/spf13/cobra"
-
 	"github.com/nextlinux/griffon/griffon/db"
+	"github.com/spf13/cobra"
 )
 
 var dbCheckCmd = &cobra.Command{

@@ -4,9 +4,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/wagoodman/go-partybus"
-
 	griffonEventParsers "github.com/nextlinux/griffon/griffon/event/parsers"
+	"github.com/wagoodman/go-partybus"
 )
 
 func handleVulnerabilityScanningFinished(event partybus.Event, reportOutput io.Writer) error {

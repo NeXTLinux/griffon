@@ -6,16 +6,16 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/scylladb/go-set/strset"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
-
-	"github.com/anchore/syft/syft/source"
 	"github.com/nextlinux/griffon/griffon"
 	"github.com/nextlinux/griffon/griffon/db"
 	"github.com/nextlinux/griffon/griffon/match"
 	"github.com/nextlinux/griffon/griffon/pkg"
 	"github.com/nextlinux/griffon/griffon/store"
+	"github.com/scylladb/go-set/strset"
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
+
+	"github.com/anchore/syft/syft/source"
 )
 
 func TestMatchBySBOMDocument(t *testing.T) {

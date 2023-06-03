@@ -1,10 +1,11 @@
 package resolver
 
 import (
-	syftPkg "github.com/anchore/syft/syft/pkg"
 	"github.com/nextlinux/griffon/griffon/db/v4/pkg/resolver/java"
 	"github.com/nextlinux/griffon/griffon/db/v4/pkg/resolver/python"
 	"github.com/nextlinux/griffon/griffon/db/v4/pkg/resolver/stock"
+
+	syftPkg "github.com/anchore/syft/syft/pkg"
 )
 
 func FromLanguage(language syftPkg.Language) (Resolver, error) {

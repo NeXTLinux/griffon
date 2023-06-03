@@ -13,10 +13,6 @@ import (
 	"github.com/hako/durafmt"
 	cleanhttp "github.com/hashicorp/go-cleanhttp"
 	archiver "github.com/mholt/archiver/v3"
-	"github.com/spf13/afero"
-	partybus "github.com/wagoodman/go-partybus"
-	progress "github.com/wagoodman/go-progress"
-
 	griffonDB "github.com/nextlinux/griffon/griffon/db/v5"
 	"github.com/nextlinux/griffon/griffon/db/v5/store"
 	"github.com/nextlinux/griffon/griffon/event"
@@ -24,6 +20,9 @@ import (
 	"github.com/nextlinux/griffon/internal/bus"
 	"github.com/nextlinux/griffon/internal/file"
 	"github.com/nextlinux/griffon/internal/log"
+	"github.com/spf13/afero"
+	partybus "github.com/wagoodman/go-partybus"
+	progress "github.com/wagoodman/go-progress"
 )
 
 const (

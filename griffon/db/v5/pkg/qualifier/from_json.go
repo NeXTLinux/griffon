@@ -4,7 +4,6 @@ import (
 	"encoding/json"
 
 	"github.com/mitchellh/mapstructure"
-
 	"github.com/nextlinux/griffon/griffon/db/v5/pkg/qualifier/platformcpe"
 	"github.com/nextlinux/griffon/griffon/db/v5/pkg/qualifier/rpmmodularity"
 	"github.com/nextlinux/griffon/internal/log"

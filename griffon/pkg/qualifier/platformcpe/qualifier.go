@@ -3,10 +3,11 @@ package platformcpe
 import (
 	"strings"
 
-	"github.com/anchore/syft/syft/cpe"
 	"github.com/nextlinux/griffon/griffon/distro"
 	"github.com/nextlinux/griffon/griffon/pkg"
 	"github.com/nextlinux/griffon/griffon/pkg/qualifier"
+
+	"github.com/anchore/syft/syft/cpe"
 )
 
 type platformCPE struct {

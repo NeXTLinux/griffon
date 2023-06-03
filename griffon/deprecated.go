@@ -1,14 +1,15 @@
 package griffon
 
 import (
-	"github.com/anchore/stereoscope/pkg/image"
-	"github.com/anchore/syft/syft/linux"
-	"github.com/anchore/syft/syft/pkg/cataloger"
-	"github.com/anchore/syft/syft/source"
 	"github.com/nextlinux/griffon/griffon/match"
 	"github.com/nextlinux/griffon/griffon/matcher"
 	"github.com/nextlinux/griffon/griffon/pkg"
 	"github.com/nextlinux/griffon/griffon/store"
+
+	"github.com/anchore/stereoscope/pkg/image"
+	"github.com/anchore/syft/syft/linux"
+	"github.com/anchore/syft/syft/pkg/cataloger"
+	"github.com/anchore/syft/syft/source"
 )
 
 // TODO: deprecated, remove in v1.0.0

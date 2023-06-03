@@ -4,12 +4,13 @@ import (
 	"fmt"
 	"strings"
 
-	packageurl "github.com/anchore/packageurl-go"
-	syftPkg "github.com/anchore/syft/syft/pkg"
 	"github.com/nextlinux/griffon/griffon/distro"
 	"github.com/nextlinux/griffon/griffon/pkg"
 	"github.com/nextlinux/griffon/internal"
 	"github.com/nextlinux/griffon/internal/log"
+
+	packageurl "github.com/anchore/packageurl-go"
+	syftPkg "github.com/anchore/syft/syft/pkg"
 )
 
 const (

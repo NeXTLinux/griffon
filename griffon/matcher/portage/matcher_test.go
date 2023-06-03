@@ -4,13 +4,13 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
+	"github.com/nextlinux/griffon/griffon/distro"
+	"github.com/nextlinux/griffon/griffon/pkg"
+	"github.com/nextlinux/griffon/internal"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
 	syftPkg "github.com/anchore/syft/syft/pkg"
-	"github.com/nextlinux/griffon/griffon/distro"
-	"github.com/nextlinux/griffon/griffon/pkg"
-	"github.com/nextlinux/griffon/internal"
 )
 
 func TestMatcherPortage_Match(t *testing.T) {

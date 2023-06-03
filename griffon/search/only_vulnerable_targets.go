@@ -2,10 +2,10 @@ package search
 
 import (
 	"github.com/facebookincubator/nvdtools/wfn"
-
-	syftPkg "github.com/anchore/syft/syft/pkg"
 	"github.com/nextlinux/griffon/griffon/pkg"
 	"github.com/nextlinux/griffon/griffon/vulnerability"
+
+	syftPkg "github.com/anchore/syft/syft/pkg"
 )
 
 func isOSPackage(p pkg.Package) bool {

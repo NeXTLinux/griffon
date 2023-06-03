@@ -5,11 +5,11 @@ import (
 	"flag"
 	"testing"
 
+	"github.com/nextlinux/griffon/griffon/presenter/models"
 	"github.com/stretchr/testify/require"
 
 	"github.com/anchore/go-testutils"
 	"github.com/anchore/syft/syft/source"
-	"github.com/nextlinux/griffon/griffon/presenter/models"
 )
 
 var update = flag.Bool("update", false, "update the *.golden files for cyclonedx presenters")

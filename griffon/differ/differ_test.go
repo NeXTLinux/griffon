@@ -6,13 +6,13 @@ import (
 	"strconv"
 	"testing"
 
+	"github.com/nextlinux/griffon/griffon/db"
+	v5 "github.com/nextlinux/griffon/griffon/db/v5"
+	"github.com/nextlinux/griffon/griffon/vulnerability"
 	"github.com/sergi/go-diff/diffmatchpatch"
 	"github.com/stretchr/testify/require"
 
 	"github.com/anchore/go-testutils"
-	"github.com/nextlinux/griffon/griffon/db"
-	v5 "github.com/nextlinux/griffon/griffon/db/v5"
-	"github.com/nextlinux/griffon/griffon/vulnerability"
 )
 
 var update = flag.Bool("update", false, "update the *.golden files for diff presenter")

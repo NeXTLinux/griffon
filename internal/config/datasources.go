@@ -1,9 +1,8 @@
 package config
 
 import (
-	"github.com/spf13/viper"
-
 	"github.com/nextlinux/griffon/griffon/matcher/java"
+	"github.com/spf13/viper"
 )
 
 const (

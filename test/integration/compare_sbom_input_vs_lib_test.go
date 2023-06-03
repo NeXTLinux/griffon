@@ -5,6 +5,9 @@ import (
 	"os"
 	"testing"
 
+	"github.com/nextlinux/griffon/griffon"
+	"github.com/nextlinux/griffon/griffon/db"
+	"github.com/nextlinux/griffon/internal"
 	"github.com/scylladb/go-set/strset"
 	"github.com/stretchr/testify/assert"
 
@@ -12,9 +15,6 @@ import (
 	syftPkg "github.com/anchore/syft/syft/pkg"
 	"github.com/anchore/syft/syft/sbom"
 	"github.com/anchore/syft/syft/source"
-	"github.com/nextlinux/griffon/griffon"
-	"github.com/nextlinux/griffon/griffon/db"
-	"github.com/nextlinux/griffon/internal"
 )
 
 var imagesWithVulnerabilities = []string{

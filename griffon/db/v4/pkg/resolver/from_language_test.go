@@ -3,12 +3,12 @@ package resolver
 import (
 	"testing"
 
-	"github.com/stretchr/testify/assert"
-
-	syftPkg "github.com/anchore/syft/syft/pkg"
 	"github.com/nextlinux/griffon/griffon/db/v4/pkg/resolver/java"
 	"github.com/nextlinux/griffon/griffon/db/v4/pkg/resolver/python"
 	"github.com/nextlinux/griffon/griffon/db/v4/pkg/resolver/stock"
+	"github.com/stretchr/testify/assert"
+
+	syftPkg "github.com/anchore/syft/syft/pkg"
 )
 
 func TestFromLanguage(t *testing.T) {

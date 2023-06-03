@@ -4,12 +4,13 @@ import (
 	"fmt"
 	"strings"
 
-	syftPkg "github.com/anchore/syft/syft/pkg"
 	"github.com/nextlinux/griffon/griffon/db/v4/namespace/cpe"
 	"github.com/nextlinux/griffon/griffon/db/v4/namespace/distro"
 	"github.com/nextlinux/griffon/griffon/db/v4/namespace/language"
 	griffonDistro "github.com/nextlinux/griffon/griffon/distro"
 	"github.com/nextlinux/griffon/internal/log"
+
+	syftPkg "github.com/anchore/syft/syft/pkg"
 )
 
 type Index struct {
