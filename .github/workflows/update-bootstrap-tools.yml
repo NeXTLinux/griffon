@@ -27,6 +27,7 @@ jobs:
       - uses: actions/setup-go@fac708d6674e30b6ba41289acaab6d4b75aa0753 # v4.0.1
         with:
           go-version: ${{ env.GO_VERSION }}
+          stable: ${{ env.GO_STABLE_VERSION }}
 
       - run: |
           GOLANGCILINT_LATEST_VERSION=$(go list -m -json github.com/golangci/golangci-lint@latest 2>/dev/null | jq -r '.Version')
