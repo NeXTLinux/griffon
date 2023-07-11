@@ -63,6 +63,7 @@ jobs:
           delete-branch: true
           branch: auto/latest-bootstrap-tools
           labels: dependencies
+          token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: 'chore(deps): update bootstrap tools to latest versions'
           title: 'chore(deps): update bootstrap tools to latest versions'
           body: |
