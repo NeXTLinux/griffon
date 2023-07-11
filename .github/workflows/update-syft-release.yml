@@ -51,6 +51,6 @@ jobs:
           labels: dependencies
           commit-message: "chore(deps): update Syft to ${{ steps.latest-version.outputs.LATEST_VERSION }}"
           title: "chore(deps): update Syft to ${{ steps.latest-version.outputs.LATEST_VERSION }}"
-          token: ${{secret.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           body: |
             Update Syft to ${{ steps.latest-version.outputs.LATEST_VERSION }}
