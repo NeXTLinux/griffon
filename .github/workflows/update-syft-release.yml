@@ -42,6 +42,8 @@ jobs:
 
           # export the version for use with create-pull-request
           echo "LATEST_VERSION=$LATEST_VERSION" >> $GITHUB_OUTPUT
+      - name: update author name
+        run: echo ${{ env.GIT_COMMIT_AUTHOR_NAME }} > AUTHER
 
       - uses: peter-evans/create-pull-request@v5.0.1
         with:
@@ -51,5 +53,6 @@ jobs:
           labels: dependencies
           commit-message: "chore(deps): update Syft to ${{ steps.latest-version.outputs.LATEST_VERSION }}"
           title: "chore(deps): update Syft to ${{ steps.latest-version.outputs.LATEST_VERSION }}"
+          token: ${{secret.GITHUB_TOKEN }}
           body: |
             Update Syft to ${{ steps.latest-version.outputs.LATEST_VERSION }}
