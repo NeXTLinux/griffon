@@ -1,4 +1,4 @@
-FROM node:16-stretch@sha256:5810de52349af302a2c5dddf0a3f31174ef65d0eed8985959a5e83bb1084b79b
+FROM node:17-stretch@sha256:b0f4a16860ffba761f11e21d2d2c553ee97db4f04e108249ef904e98d5eb2a2a
 COPY app.js /
 ENV PATH="/app/bin:${PATH}"
 WORKDIR /
